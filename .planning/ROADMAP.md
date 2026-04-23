@@ -8,6 +8,9 @@
 - Construir dashboard do investidor com resumo de carteira.
 - Criar tela administrativa básica.
 
+### Plans
+- [ ] 01-01-PLAN.md — Backend + frontend MVP com auth, transações, dashboard e listagem de usuários admin.
+
 ## Fase 2 — Indicadores e histórico
 
 - Adicionar histórico detalhado de transações.
