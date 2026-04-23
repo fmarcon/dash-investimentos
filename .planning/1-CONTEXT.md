@@ -12,7 +12,7 @@ Construir a base do MVP para o dashboard de investimentos: autenticação, cadas
 - Arquitetura: SPA frontend consumindo API JSON em nexjs.
 - Backend: Django API.
 - UI: aplicação web interativa em SPA.
-- Persistência: SQLite local para dados do MVP com a possibilidade futura de modificar o banco.
+- Persistência: PostgreSQL gerenciado como serviço Docker Compose, com dados de desenvolvimento isolados.
 - Orquestração: o ambiente local deve usar Docker Compose para backend e frontend.
 
 ## Autenticação
@@ -34,7 +34,7 @@ Construir a base do MVP para o dashboard de investimentos: autenticação, cadas
 
 ## Orientação para pesquisa e planejamento
 - Pesquisar e escolher o framework Python para API.
-- Definir o formato de dados do SQLite para usuários e investimentos.
+- Definir o formato do schema PostgreSQL para usuários e investimentos.
 - Projetar o fluxo SPA: login, dashboard de investimentos, formulário de CRUD e resumo financeiro.
-- Configurar o ambiente de execução local com Docker Compose para backend e SPA.
+- Configurar o ambiente de execução local com Docker Compose para backend, frontend e banco PostgreSQL.
 - Manter a fase 1 enxuta: sem integrações externas e sem backend complexo de administração.
