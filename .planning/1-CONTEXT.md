@@ -11,9 +11,10 @@ Construir a base do MVP para o dashboard de investimentos: autenticação, cadas
 ## Decisões de arquitetura
 - Arquitetura: SPA frontend consumindo API JSON em nexjs.
 - Backend: Django API.
-- UI: aplicação web interativa em SPA.
+- UI: aplicação web interativa em SPA com Tailwind CSS para estilo.
 - Persistência: PostgreSQL gerenciado como serviço Docker Compose, com dados de desenvolvimento isolados.
 - Orquestração: o ambiente local deve usar Docker Compose para backend e frontend.
+- Backend Python: usar `ruff` como validador/linter de código para o serviço Django.
 
 ## Autenticação
 - Método: email e senha.
