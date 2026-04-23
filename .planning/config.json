@@ -1,0 +1,8 @@
+{
+  "projectName": "Dashboard de Investimentos",
+  "workflowMode": "manual",
+  "createdAt": "2026-04-22T00:00:00Z",
+  "projectVoice": "financeiro moderno",
+  "defaultRoles": ["investidor_individual", "admin"],
+  "rootPhase": 1
+}
