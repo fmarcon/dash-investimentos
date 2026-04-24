@@ -12,13 +12,14 @@ Plans:
 - [ ] 01-01-PLAN.md — Build Django backend API, PostgreSQL service, JWT auth and investment endpoints
 - [ ] 01-02-PLAN.md — Build Next.js SPA, authentication flow, investment CRUD and dashboard metrics
 
-## Fase 2 — Experiência e validação
+## Fase 2 — Melhoria da versão do backend
+- Utilizar o django para a última versão utilizando o agente `context7`
+
+## Fase 3 — Operação e estabilidade
 - Polir a interface de investimentos.
 - Adicionar filtros e ordenação na listagem.
 - Garantir validação e tratamento de erros.
 - Realizar testes básicos de fluxo do usuário.
-
-## Fase 3 — Operação e estabilidade
 - Revisar performance e usabilidade.
 - Preparar ambiente para deploy inicial.
 - Documentar instruções básicas de uso.
