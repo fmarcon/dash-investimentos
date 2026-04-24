@@ -5,5 +5,5 @@
 - escopoMVP: login, CRUD de investimentos e listagem de investimentos
 - personas: investidor, administrador do sistema
 - pesquisaDeDominio: desativada
-- proximoPasso: /gsd-plan-phase 1
+- proximoPasso: /gsd-plan-phase 2
 - criadoEm: 2026-04-23
